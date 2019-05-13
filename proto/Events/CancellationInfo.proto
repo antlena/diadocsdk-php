@@ -1,0 +1,5 @@
+package Antlena.SDK.Diadoc.Proto.Events;
+
+message CancellationInfo {
+	required string Author = 1;
+}

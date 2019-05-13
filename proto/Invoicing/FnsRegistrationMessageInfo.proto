@@ -1,0 +1,5 @@
+package Antlena.SDK.Diadoc.Proto.Invoicing;
+
+message FnsRegistrationMessageInfo {
+	repeated bytes Certificates = 1;
+}

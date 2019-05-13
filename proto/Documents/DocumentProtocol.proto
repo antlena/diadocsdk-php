@@ -1,0 +1,6 @@
+package Antlena.SDK.Diadoc.Proto.Documents;
+
+message DocumentProtocol {
+	required bytes PrintForm = 1;
+	required bytes Signature = 2;
+}

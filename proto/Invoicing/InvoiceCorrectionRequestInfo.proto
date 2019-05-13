@@ -1,0 +1,8 @@
+import "Invoicing/Signer.proto";
+
+package Antlena.SDK.Diadoc.Proto.Invoicing;
+
+message InvoiceCorrectionRequestInfo {
+	required string ErrorMessage = 1;
+	required Signer Signer = 2;
+}

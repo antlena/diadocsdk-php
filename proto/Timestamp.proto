@@ -1,0 +1,6 @@
+package Antlena.SDK.Diadoc.Proto;
+
+message Timestamp
+{
+	required sfixed64 Ticks = 1;
+}

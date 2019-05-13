@@ -1,0 +1,18 @@
+import "Organization.proto";
+import "Counteragent.proto";
+
+package Antlena.SDK.Diadoc.Proto;
+
+message GetOrganizationsByInnListRequest {
+	repeated string InnList = 1;
+}
+
+message OrganizationWithCounteragentStatus {
+	required Organization Organization = 1;
+	optional CounteragentStatus CounteragentStatus = 2 [default = UnknownCounteragentStatus];
+	optional sfixed64 LastEventTimestampTicks = 3;
+}
+
+message GetOrganizationsByInnListResponse {
+	repeated OrganizationWithCounteragentStatus Organizations = 1;
+}

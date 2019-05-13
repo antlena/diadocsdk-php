@@ -1,0 +1,5 @@
+package Antlena.SDK.Diadoc.Proto.Documents;
+
+message DocumentZipGenerationResult {
+	optional string ZipFileNameOnShelf = 1;
+}

@@ -1,0 +1,9 @@
+import "Timestamp.proto";
+import "ResolutionTarget.proto";
+import "Docflow/Attachment.proto";
+
+package Antlena.SDK.Diadoc.Proto.Docflow;
+
+message ResolutionDocflow
+{
+}

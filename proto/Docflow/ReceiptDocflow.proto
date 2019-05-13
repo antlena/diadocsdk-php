@@ -1,0 +1,10 @@
+import "Docflow/Attachment.proto";
+
+package Antlena.SDK.Diadoc.Proto.Docflow;
+
+message ReceiptDocflow
+{
+	optional bool IsFinished = 1;
+
+	optional SignedAttachment ReceiptAttachment = 2;
+}

@@ -1,0 +1,11 @@
+package Antlena.SDK.Diadoc.Proto.Events;
+
+message ResolutionRouteAssignmentInfo {
+	required string RouteId = 1;
+	required string Author = 2;
+}
+
+message ResolutionRouteRemovalInfo {
+	required string RouteId = 1;
+	required string Author = 2;
+}

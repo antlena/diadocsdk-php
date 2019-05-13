@@ -1,0 +1,12 @@
+package Antlena.SDK.Diadoc.Proto;
+
+message DocumentId {
+	required string MessageId = 1;
+	required string EntityId = 2;
+}
+
+message DocumentIdEx {
+	required string MessageId = 1;
+	required string EntityId = 2;
+	required string BoxId = 3;
+}
